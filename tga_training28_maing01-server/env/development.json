@@ -1,0 +1,11 @@
+{
+  "port": 8181,
+  "uuSubAppDataStoreMap": {
+    "primary": "mongodb://127.0.0.1:27017/traininMaing01Primary"
+  },
+  "privilegedUserMap": {
+    "asidOwner": "5469-1105-1"
+  },
+  "asid": "11111111111111111111111111111111",
+  "log_level": "INFO"
+}

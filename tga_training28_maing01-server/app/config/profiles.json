@@ -1,0 +1,28 @@
+{
+  "{asid}": {
+    "profileList": ["AsidOwner"],
+    "permissionMap": {
+      "{asidOwner}": ["AsidOwner"]
+    },
+    "useCaseMap": {
+    }
+  },
+  "*": {
+    "profileList": ["Authorities", "Executives", "AwidOwner", "Readers"],
+    "useCaseMap": {
+      "init": ["AwidOwner"],
+      "defaultUve": ["Public"],
+      "item/create": ["Authorities", "Executives"],
+      "item/get": ["Authorities", "Executives", "Readers"],
+      "item/update": ["Authorities", "Executives"],
+      "item/complete": ["Authorities", "Executives", "Readers"],
+      "item/delete": ["Authorities", "Executives"],
+      "item/list": ["Authorities", "Executives", "Readers"],
+      "list/create": ["Authorities", "Executives"],
+      "list/get": ["Authorities", "Executives", "Readers"],
+      "list/update": ["Authorities", "Executives"],
+      "list/delete": ["Authorities", "Executives"],
+      "list/list": ["Authorities", "Executives", "Readers"]
+    }
+  }
+}
