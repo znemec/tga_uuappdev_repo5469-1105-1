@@ -8,21 +8,21 @@
     }
   },
   "*": {
-    "profileList": ["Authorities", "Executives", "AwidOwner", "Readers"],
+    "profileList": ["Authorities", "Executives", "AwidOwner", "Readers","Public"],
     "useCaseMap": {
       "init": ["AwidOwner"],
       "defaultUve": ["Public"],
-      "item/create": ["Authorities", "Executives"],
-      "item/get": ["Authorities", "Executives", "Readers"],
-      "item/update": ["Authorities", "Executives"],
-      "item/complete": ["Authorities", "Executives", "Readers"],
-      "item/delete": ["Authorities", "Executives"],
-      "item/list": ["Authorities", "Executives", "Readers"],
-      "list/create": ["Authorities", "Executives"],
-      "list/get": ["Authorities", "Executives", "Readers"],
-      "list/update": ["Authorities", "Executives"],
-      "list/delete": ["Authorities", "Executives"],
-      "list/list": ["Authorities", "Executives", "Readers"]
+      "item/create": ["Public"],
+      "item/get": ["Public"],
+      "item/update": ["Public"],
+      "item/complete": ["Public"],
+      "item/delete": ["Public"],
+      "item/list": ["Public"],
+      "list/create": ["Public"],
+      "list/get": ["Public"],
+      "list/update": ["Public"],
+      "list/delete": ["Public"],
+      "list/list":["Public"]
     }
   }
 }

@@ -9,6 +9,10 @@ const Lsi = {
       cs: "Vítejte",
       en: "Welcome"
     },
+    todoList: {
+      cs: "todoList",
+      en: "Welcome"
+    },
     about: {
       cs: "O aplikaci",
       en: "About Application"
@@ -17,8 +21,8 @@ const Lsi = {
 
   about: {
     header: {
-      cs: "O aplikaci tgaTrainin",
-      en: "About application tgaTrainin"
+      cs: "O aplikaci tgaTodo",
+      en: "About application tgaTodo"
     },
     creatorsHeader: {
       cs: "Tvůrci aplikace",

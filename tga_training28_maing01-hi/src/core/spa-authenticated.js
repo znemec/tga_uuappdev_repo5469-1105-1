@@ -8,7 +8,7 @@ import "uu_plus4u5g01-app";
 import Config from "./config/config";
 import Left from "./left";
 import Bottom from "./bottom";
-import Home from "../routes/home";
+import TodoList from "../routes/todo-list";
 //@@viewOff:imports
 
 const STATICS = {
@@ -19,11 +19,11 @@ const STATICS = {
 
 const About = UU5.Common.Component.lazy(() => import("../routes/about"));
 
-const DEFAULT_USE_CASE = "home";
+const DEFAULT_USE_CASE = "todoList";
 const ROUTES = {
   "": DEFAULT_USE_CASE,
-  home: { component: <Home /> },
-  about: { component: <About /> }
+  about: { component: <About /> },
+  todoList: { component: <TodoList /> },
 };
 
 export const SpaAuthenticated = createVisualComponent({
